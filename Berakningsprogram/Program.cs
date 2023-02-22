@@ -19,7 +19,17 @@
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} + {Y} = {X + Y}");
                 }
-                //test
+                // new command Hjälp
+                else if (command == "hjälp")
+                {
+                    Console.WriteLine($"plus - addera två tal");
+                    Console.WriteLine($"minus - subtrahera två tal");
+                    Console.WriteLine($"gånger - multiplicera två tal");
+                    Console.WriteLine($"delat - dividera två tal");
+                    Console.WriteLine($"kvadrat - multiplicera tal med sig självt");
+                    Console.WriteLine($"sluta - avsluta programmet");
+                }
+
                 //new command gånger
                 else if (command == "gånger")
                 {
