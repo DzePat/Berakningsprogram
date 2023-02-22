@@ -19,6 +19,7 @@
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} + {Y} = {X + Y}");
                 }
+                //test
                 //new command gånger
                 else if (command == "gånger")
                 {
