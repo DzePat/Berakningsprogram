@@ -18,6 +18,7 @@
                     Console.Write("tal 2: ");
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} + {Y} = {X + Y}");
+                }
                 //new command kvadrat
                 else if (command == "kvadrat")
                 {
@@ -47,8 +48,8 @@
                 {
                     Console.WriteLine($"Okänt kommando: {command}");
                 }
-            } while (command != "sluta");
-            Console.WriteLine("Hej då!");
-        }
+                } while (command != "sluta") ;
+                Console.WriteLine("Hej då!");
+            }
     }
-}
+} 
