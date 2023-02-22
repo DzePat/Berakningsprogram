@@ -18,8 +18,14 @@
                     Console.Write("tal 2: ");
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} + {Y} = {X + Y}");
+                //new command kvadrat
+                else if (command == "kvadrat")
+                {
+                    Console.Write("tal 1: ");
+                    double X = double.Parse(Console.ReadLine());
+                    Console.WriteLine($"{X}^2 = {X * X}");
                 }
-                //test
+
                 //new command gånger
                 else if (command == "gånger")
                 {
