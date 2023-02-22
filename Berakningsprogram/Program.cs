@@ -29,7 +29,13 @@
                     Console.WriteLine($"kvadrat - multiplicera tal med sig självt");
                     Console.WriteLine($"sluta - avsluta programmet");
                 }
-
+                //new command kvadrat
+                else if (command == "kvadrat")
+                {
+                    Console.Write("tal 1: ");
+                    double X = double.Parse(Console.ReadLine());
+                    Console.WriteLine($"{X}^2 = {X * X}");
+                }
                 //new command gånger
                 else if (command == "gånger")
                 {
