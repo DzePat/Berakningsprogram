@@ -36,6 +36,7 @@
                     double X = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X}^2 = {X * X}");
                 }
+
                 //new command gånger
                 else if (command == "gånger")
                 {
@@ -57,8 +58,8 @@
                 {
                     Console.WriteLine($"Okänt kommando: {command}");
                 }
-            } while (command != "sluta");
-            Console.WriteLine("Hej då!");
-        }
+                } while (command != "sluta") ;
+                Console.WriteLine("Hej då!");
+            }
     }
-}
+} 
